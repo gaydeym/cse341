@@ -1,5 +1,23 @@
-GET http://localhost:3000 HTTP/1.1
-
-
+// LOCAL HOST
+GET http://localhost:3000
 ###
-GET http://localhost:3000/awesome HTTP/1.1
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/6813f7a7c0f14579b5f08038
+###
+GET http://localhost:3000/contacts/6813f7dcc0f14579b5f08039
+###
+GET http://localhost:3000/contacts/6813f802c0f14579b5f0803a
+
+
+// RENDER
+###
+GET https://cse341-b2lq.onrender.com/
+###
+GET https://cse341-b2lq.onrender.com/contacts
+###
+GET https://cse341-b2lq.onrender.com/contacts/6813f7a7c0f14579b5f08038
+###
+GET https://cse341-b2lq.onrender.com/contacts/6813f7dcc0f14579b5f08039
+###
+GET https://cse341-b2lq.onrender.com/contacts/6813f802c0f14579b5f0803a

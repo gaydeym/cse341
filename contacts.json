@@ -1,0 +1,23 @@
+{
+  "contact1": {
+    "firstName": "Miguel",
+    "lastName": "Gaydey",
+    "email": "gay20001@byui.edu",
+    "favoriteColor": "Blue",
+    "birthday": "05/24/99"
+  },
+  "contact2": {
+    "firstName": "Polette",
+    "lastName": "Piedra",
+    "email": "polette@piedra.com",
+    "favoriteColor": "Yellow",
+    "birthday": "11/11/97"
+  },
+  "contact3": {
+    "firstName": "Andriy",
+    "lastName": "Gaydey",
+    "email": "andriy@gaydey.com",
+    "favoriteColor": "Green",
+    "birthday": "11/27/86"
+  }
+}
