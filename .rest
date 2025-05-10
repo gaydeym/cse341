@@ -8,6 +8,31 @@ GET http://localhost:3000/contacts/6813f7a7c0f14579b5f08038
 GET http://localhost:3000/contacts/6813f7dcc0f14579b5f08039
 ###
 GET http://localhost:3000/contacts/6813f802c0f14579b5f0803a
+### Create Contact
+POST http://localhost:3000/contacts
+content-type: application/json
+
+{
+    "firstName":"Peter",
+    "lastName":"Master",
+    "email":"peter@master.com",
+    "favoriteColor":"White",
+    "birthday":"05/10/25"
+}
+### Put Contact
+PUT http://localhost:3000/contacts/681fd09aa56c594ff8916233
+content-type: application/json
+
+{
+    "firstName":"Peter",
+    "lastName":"Smith",
+    "email":"peter@smith.com",
+    "favoriteColor":"Orange",
+    "birthday":"05/10/25"
+}
+### Delete Contact
+DELETE http://localhost:3000/contacts/681fd09aa56c594ff8916233
+
 
 
 // RENDER
@@ -21,3 +46,27 @@ GET https://cse341-b2lq.onrender.com/contacts/6813f7a7c0f14579b5f08038
 GET https://cse341-b2lq.onrender.com/contacts/6813f7dcc0f14579b5f08039
 ###
 GET https://cse341-b2lq.onrender.com/contacts/6813f802c0f14579b5f0803a
+### Create Contact
+POST https://cse341-b2lq.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName":"Peter",
+    "lastName":"Master",
+    "email":"peter@master.com",
+    "favoriteColor":"White",
+    "birthday":"05/10/25"
+}
+### Put Contact
+PUT https://cse341-b2lq.onrender.com/contacts/681fcdd35d217f20b5566301
+content-type: application/json
+
+{
+    "firstName":"Peter",
+    "lastName":"Smith",
+    "email":"peter@master.com",
+    "favoriteColor":"Orange",
+    "birthday":"05/10/25"
+}
+### Delete Contact
+DELETE https://cse341-b2lq.onrender.com/contacts/681fcdd35d217f20b5566301
