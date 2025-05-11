@@ -20,7 +20,7 @@ content-type: application/json
     "birthday":"05/10/25"
 }
 ### Put Contact
-PUT http://localhost:3000/contacts/681fd09aa56c594ff8916233
+PUT http://localhost:3000/contacts/68202cf47b50dabdee2ff50c
 content-type: application/json
 
 {
@@ -31,7 +31,7 @@ content-type: application/json
     "birthday":"05/10/25"
 }
 ### Delete Contact
-DELETE http://localhost:3000/contacts/681fd09aa56c594ff8916233
+DELETE http://localhost:3000/contacts/68202cf47b50dabdee2ff50c
 
 
 
@@ -58,7 +58,7 @@ content-type: application/json
     "birthday":"05/10/25"
 }
 ### Put Contact
-PUT https://cse341-b2lq.onrender.com/contacts/681fcdd35d217f20b5566301
+PUT https://cse341-b2lq.onrender.com/contacts/68202cf47b50dabdee2ff50c
 content-type: application/json
 
 {
@@ -69,4 +69,4 @@ content-type: application/json
     "birthday":"05/10/25"
 }
 ### Delete Contact
-DELETE https://cse341-b2lq.onrender.com/contacts/681fcdd35d217f20b5566301
+DELETE https://cse341-b2lq.onrender.com/contacts/68202cf47b50dabdee2ff50c
