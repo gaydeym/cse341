@@ -32,6 +32,8 @@ content-type: application/json
 }
 ### Delete Contact
 DELETE http://localhost:3000/contacts/68202cf47b50dabdee2ff50c
+###
+GET http://localhost:3000/api-docs
 
 
 
@@ -70,3 +72,5 @@ content-type: application/json
 }
 ### Delete Contact
 DELETE https://cse341-b2lq.onrender.com/contacts/68202cf47b50dabdee2ff50c
+###
+GET  https://cse341-b2lq.onrender.com/api-docs
